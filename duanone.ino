@@ -124,7 +124,7 @@ if (!buzzerSilenced) digitalWrite(BUZZER_PIN, BUZZER_ON);
       }
     } else {
       digitalWrite(LED_PIN, LED_OFF);
-    }x1
+    }
   }
 
   delay(1000); // Chờ để đọc DHT & analog ổn định
